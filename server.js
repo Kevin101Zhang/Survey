@@ -10,9 +10,6 @@ app.use(express.json());
 //Routing below will point our server to a series of "routing" files
 //These Routes give our server a "map" on how to respond when the user vists our requests data
 
-// require("./routes/apiRoutes")(app);
-// require("./routes/htmlRoutes")(app);
-
 require("./app/routes/apiRoutes")(app);
 require("./app/routes/htmlRoutes")(app);
 
